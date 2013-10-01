@@ -1,0 +1,29 @@
+{
+  "name": "infinite-timeout",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Manage timeouts that are not limited to 24.8 days in JavaScript",
+  "keywords": [
+    "timeout",
+    "int",
+    "limit",
+    "long"
+  ],
+  "author": "Dirk Bonhomme <dirk@bytelogic.be>",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dirkbonhomme/infinite-timeout"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "sinon": "*"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
